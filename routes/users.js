@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/cool', function(req, res, next) {
-  res.send('respond with a resource');
+  res.send('You are so cool');
 });   
 
 module.exports = router;
